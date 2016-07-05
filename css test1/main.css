@@ -1,0 +1,11 @@
+#red{color:red;}
+p.blueclass{color:blue;}
+p[name]{color:green;}
+p[name^="yellow"]{color:yellow;}
+/*1. ID=red then change to red
+  2. class=blueclass then change to blue
+  and it must be a paragraph
+  3. a paragraph has a name will be green
+  4. a paragraph name start as yellow will change to yellow 
+  5. if we use p[name*="yellow"]{color:yellow;}
+  all the paragraph has yellow in the name(no metter at bigining or end will change to yellow)*/

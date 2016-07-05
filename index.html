@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML>
+<html>
+<head>
+<script type="text/javascript">
+
+/*the comment
+	*/
+	
+	function worker(name, age)
+	{
+		this.name=name;
+		this.age=age;
+		this.yearsUntillRetire=yearsLeft;
+	}
+	function yearsLeft(){
+		var numyears=65-this.age;
+		return numyears;
+	}
+	var aWorker=new worker("yaya", 23);
+	
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	docment.write(aWorker.yearsUntillRetire());
+</script>
+
+</body>
+
+</html>

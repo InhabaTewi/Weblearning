@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*
+p:nth-child(odd){color:green;}
+p:nth-child(even){color:red;}
+==you can use odd or even or a number in ()==
+  
+*/
+/*
+*{color:blue;}
+:not(.classOfChild1){color:red;}
+==1. change all to blue.
+  2. change all to red but the classOf Child1.
+*/
+/*div>p{color:red;}
+==change any p has a mother div to red' body works too*/
+/*
+	p.classOfChild2+p{color:blue;}
+	==if the paragraph before called classOfChild2
+	then change to blue== 
+	p.classOfChild2+p{color:red;}
+	==same as + but dont need to near before the classOfChild2==
+*/

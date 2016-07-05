@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript">
+	
+	function worker(name, age){
+		this.name=name;
+		this.age=age;
+		this.yearsLeftUntileRetire=yearsLeft;		
+	}
+	function yearsLeft(){
+		var numyears=65-this.age;
+		return numyears;
+		}
+	var aWorker=new worker("yaya",23);
+	
+	
+	
+</script>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	document.write(aWorker.name+" has "+aWorker.yearsLeftUntileRetire()+ " years untill retire!");
+</script>
+</body>
+</html>

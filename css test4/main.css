@@ -1,0 +1,53 @@
+@charset "utf-8";
+#M{
+	border: 2px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	/*-webkit-box-direction:reverse;    ==reverse all stuff*/
+	width: 700px; 
+	-webkit-box-pack:center; /*start or center or end*/
+	height: 300px;
+	-webkit-box-align:center;/*纵向居中*/
+	}
+#kid1{
+	border: 2px solid red;
+	background: green;
+	padding: 20px;
+	margin:10px;
+	color:white;
+	/*-webkit-box-ordinal-group:1;* ==set to some position*/
+	width:6px;
+	height:100px;
+}
+#kid2{
+	border: 2px solid red;
+	background: blue;
+	padding: 20px;
+	margin:10px;
+	color:white;
+	width:6px;
+	-webkit-box-flex:1;/*fill in the space 1 means one unit of space*/
+	height:100px;
+}
+#kid3{
+	border: 2px solid red;
+	background: gray;
+	padding: 20px;
+	margin:10px;
+	color:white;
+	width:6px;
+	height:100px;
+}
+#kid4{
+	border: 2px solid red;
+	background: black;
+	padding: 20px;
+	margin:10px;
+	color:white;
+	width:6px;
+	height:100px;
+}
+
+
+	
+

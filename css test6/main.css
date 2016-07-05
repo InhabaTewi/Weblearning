@@ -1,0 +1,21 @@
+@charset "utf-8";
+body{
+	text-align:center;
+}
+#box{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border:7px solid blue;
+	background:yellow;
+	outline:7px solid red;/*border outside of your border*/
+	-webkit-transform:scale(1.1);/*伸缩 （长，宽）（-1,1）=翻转文字*/
+	/*rotate(45deg)==== skew(30deg将长方形框改为30度的平行四边形)==
+	translate(150px,300px)移动x=150 y=300 移动方向为右下角*/
+}
+#text{
+	font:bold 30px Century Gothic;
+}
+	

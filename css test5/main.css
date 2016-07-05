@@ -1,0 +1,20 @@
+@charset "utf-8";
+#box{
+	display:block;
+	text-align:center;
+	border:2px solid red;
+	background:-webkit-radial-gradient(center,circle,white 10%, lightblue 50%);
+	/*过渡色背景 linear(top,black,white) or radial(center,circle,red 10%, orange 50%)*/
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	-webkit-border-radius:25px; /*make it circle*/
+	-webkit-box-shadow:rgba(85,79,79, .4) 8px 8px 5px;/*增加阴影 颜色 以及亮度+右+左+阴影和实体的距离+内陷阴影(可加inset)*/
+}
+#text{
+	font:bold 30px Century Gotham;
+	text-shadow:rgba(255,237,0,1.00) 3px 3px 3px;
+}
+
+
